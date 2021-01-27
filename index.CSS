@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-image: url("./image/background.jpeg");
+    opacity: 0.9;
+    color: white;
+}
+#survey {
+    max-width: 700px;
+    margin: 4rem auto;
+    padding: .6rem;
+}
+#title {
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 75px;
+    text-align: center;
+    line-height: 1.2;
+    padding: .6rem;
+    background-color: brown;
+}
+#description {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(250, 242, 241);
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+#survey-form{
+    background-color:#0f0a01;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+
+}
+.form-group{
+    margin-bottom: 1rem;
+    font-size:  1.3rem;
+
+}
+.form-group label {
+    display: block;
+    margin-bottom: .5rem;
+ }
+ 
+#name,
+#email,
+#age,
+#dropdown,
+#comments,
+#submit {
+    width: 100%;
+    padding: .3rem;
+    border-radius:6px ;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:320px){
+    #title{
+        width: 100%;
+        font-size: 25px;
+        
+    }
+    #description{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.CSS">
+    <title>survey form</title>
+</head>
+<body>
+    <div id="survey">
+    <header class="main header">
+        <div class="container">
+    <h1 id="title">Tess<span>Fashion</span></h1>
+    </div>
+    <p id="description"><em> Thank you for registery for Tess<span>Fashion</span> show. Tell us more about youself</em></p>
+    </header>
+    <form id="survey-form">
+    <div class="form-group">
+        <div class="form-group"></div>
+        <label for="name" id="name">Name</label> 
+        <input id="name" type="text" name="name" placeholder="John Weller" required> </input>
+        </div>
+        <br> 
+
+        <div class="form-group">
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="text" name="email" placeholder="Johnweller@gmail.com" required> </input>
+        <br> 
+        </div>
+
+        <div class="form-group">
+        <label for="number" id="age">Age</label>
+        <input id="number" type="number" placeholder="24" min="18" max="30" required>
+        <br>
+        </div>
+
+        <div class="form-group">
+        <label for="dropdown">Country</label>
+        <select name="dropdown" id="dropdown">
+        <option value="Nigeria">Nigeria </option>
+        <option value="Ghana">Ghana</option>
+        <option value="Uganda">Uganda</option>
+        <option value="South africa">South Africa </option>
+        <option value="Togo">Togo </option>
+        <option value="Egypt">Egypt</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Cameroon">Cameroon </option>
+        
+        </select>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label id="label1" for="radio-buttons"> Choose your favourite fabrics from the lists</label>
+            <input type="radio" id="cotton" name= "radio-buttons">Cotton 
+            <input type="radio" id="silk" name= "radio-buttons" >Silk
+            <input type="radio" id="linen" name= "radio-buttons">Linen
+            <input type="radio" id="chiffon" name= "radio-buttons" >Chiffon
+            <input type="radio" id="others" name= "radio-buttons" >Others
+            </div>
+            <br> 
+            <div class="form-group">
+                <label id="label1" for="radio-selectior-role"> How often do you purchase clothes for yourself</label>
+                <input type="radio" id="once in a year" name="radio-buttons"> Once a year <br>
+                <input type="radio" id="once in six months" name= "radio-buttons">Once in six months <br>
+                <input type="radio" id="once in a month" name= "radio-buttons">Once in a month <br>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label id="label2" for="radio-selection-role"> What is the primary reason for the purchase of  your clothes </label>
+                    <input type="radio" id="necessity" name="Necessity"> Necessity <br>
+                    <input type="radio" id="trend-change" name="Trend change">Trend change<br>
+                    <input type="radio" id="bored with the old ones" name="Bored with the old ones">Bored with the old ones <br>
+                    <input type="radio" id="seen a friend wearing something attractive" name="Seen a friend wearing something attractive">Seen a friend wearing something attractive
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="checkbox"> Have you attended any fashion shows in the past three months?</label> 
+                    <input type="checkbox"> Yes <br>
+                    <input type="checkbox"> No
+                     </div>
+                     <br>
+                <div class="form-group">
+                    <label for="checkbox"> Do you want to take modelling as your full time profession?</label> v
+                    <input type="checkbox"> Yes <br>
+                    <input type="checkbox"> No
+                </div>
+                <br>
+            <div class="form-group">
+                <label for="checkbox"> If your are choosen for this fashion show, what are your expectations from it? <br> <br>
+                    <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Not more than 300 words"></textarea>
+                    </div>
+                    <br>
+            <input type="submit" id="submit" value="Submit">
+
+        
+    </form>
+    
+
+    
+</body>
+</html>
